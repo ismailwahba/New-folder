@@ -1,8 +1,8 @@
 <?php
 
-  $firstchar = 'a';
+  $firstchar = 'z';
   $nextchar = ++$firstchar; 
-  function speci($firstchar,$nextchar){
+  function speci($firstchar){
 
     if (strlen($nextchar) > 1) 
     {
@@ -10,7 +10,7 @@
     }
     echo $nextchar;
   }
-  speci($firstchar,$nextchar);
+  speci($firstchar);
 
   ?>
 
