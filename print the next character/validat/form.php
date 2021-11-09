@@ -44,7 +44,7 @@
         }
         
       }else{
-        echo $name.'<br>'.$email.'<br>'.$password.'<br>'.$address.'<br>'.$linked.'<br>';
+        echo 'Name : '.$name.'<br>'.'Email : '.$email.'<br>'.'Password : '.$password.'<br>'.'Address : '.$address.'<br>'.'Linked : '.$linked.'<br>';
         }
   }
 ?>
