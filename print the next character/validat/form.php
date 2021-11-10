@@ -30,8 +30,8 @@
       $errors['address '] = "field Requried";
     }
 
-    if(mb_strlen($address) > 10){
-      $errors['address '] = "no more than 10 char";
+    if(mb_strlen($address) <= 10){
+      $errors['address '] = "must be  10 char or more ";
     }
 
     if(empty($linked)){
